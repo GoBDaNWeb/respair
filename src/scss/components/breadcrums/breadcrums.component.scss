@@ -1,0 +1,21 @@
+@import '../../common/files/variables.scss';
+
+.breadcrums {
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    &__link {
+        padding-bottom: 2px;
+        text-decoration: none;
+        color: $text01;
+    
+        &:last-child {
+            max-width: 400px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    }
+}
