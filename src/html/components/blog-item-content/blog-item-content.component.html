@@ -73,7 +73,11 @@
           </p>
         </div>
         <div class="banner-bottom__content">
-          <button class="btn btn-01-text btn-primary">Заказать</button>
+          @@include('../../UI/files/button.html', {
+            'class-btn': 'btn-01-text btn-primary main-hero-banner__btn modal-window__btn-open',
+            'text': 'Заказать',
+            'type-btn': 'button'
+          })
           <img data-src="@img/megaphone.png" alt="banner" class="lazy" />
         </div>
       </div>
@@ -81,124 +85,133 @@
     <div class="swiper blog-item__swiper">
       <div class="swiper-wrapper blog__swiper-wrapper">
         <div class="swiper-slide blog__slide">
-          <img
-            class="lazy blog__slide-img"
-            loading="lazy"
-            alt="Тейпирование и массаж на марафоне"
-            data-src="@img/blog-card-01.png"
-          />
-          <div class="blog__slide-info p-3 p-sm-4">
-            <div>
-              <div class="blog__slide-info-title mb-3">
-                <h4 class="h4">Корпоративный массаж на аутсорсе</h4>
+          <a href="/blog.html">
+            <img
+              class="lazy blog__slide-img"
+              loading="lazy"
+              alt="Тейпирование и массаж на марафоне"
+              data-src="@img/blog-card-01.png"
+            />
+            <div class="blog__slide-info p-3 p-sm-4">
+              <div>
+                <div class="blog__slide-info-title mb-3">
+                  <h4 class="h4">Корпоративный массаж на аутсорсе</h4>
+                </div>
               </div>
+
+              <a href="/" class="btn nav-link-text btn__link primary-color">
+                Читать
+              </a>
             </div>
-
-            <a href="/" class="btn nav-link-text btn__link primary-color">
-              Читать
-            </a>
-          </div>
+          </a>
         </div>
-
         <div class="swiper-slide blog__slide">
-          <img
-            class="lazy blog__slide-img"
-            loading="lazy"
-            alt="Корпоративный массаж на аутсорсе"
-            data-src="@img/blog-card-02.png"
-          />
-          <div class="blog__slide-info p-3 p-sm-4">
-            <div>
-              <div class="blog__slide-info-title mb-3">
-                <h4 class="h4">Корпоративный массаж на аутсорсе</h4>
+          <a href="/blog.html">
+            <img
+              class="lazy blog__slide-img"
+              loading="lazy"
+              alt="Тейпирование и массаж на марафоне"
+              data-src="@img/blog-card-02.png"
+            />
+            <div class="blog__slide-info p-3 p-sm-4">
+              <div>
+                <div class="blog__slide-info-title mb-3">
+                  <h4 class="h4">Корпоративный массаж на аутсорсе</h4>
+                </div>
               </div>
+
+              <a href="/" class="btn nav-link-text btn__link primary-color">
+                Читать
+              </a>
             </div>
-
-            <a href="/" class="btn nav-link-text btn__link primary-color">
-              Читать
-            </a>
-          </div>
+          </a>
         </div>
-
         <div class="swiper-slide blog__slide">
-          <img
-            class="lazy blog__slide-img"
-            loading="lazy"
-            alt="Массаж рук. Преимущества и польза"
-            data-src="@img/blog-card-03.png"
-          />
-          <div class="blog__slide-info p-3 p-sm-4">
-            <div>
-              <div class="blog__slide-info-title mb-3">
-                <h4 class="h4">Корпоративный массаж на аутсорсе</h4>
+          <a href="/blog.html">
+            <img
+              class="lazy blog__slide-img"
+              loading="lazy"
+              alt="Тейпирование и массаж на марафоне"
+              data-src="@img/blog-card-03.png"
+            />
+            <div class="blog__slide-info p-3 p-sm-4">
+              <div>
+                <div class="blog__slide-info-title mb-3">
+                  <h4 class="h4">Корпоративный массаж на аутсорсе</h4>
+                </div>
               </div>
+
+              <a href="/" class="btn nav-link-text btn__link primary-color">
+                Читать
+              </a>
             </div>
-
-            <a href="/" class="btn nav-link-text btn__link primary-color">
-              Читать
-            </a>
-          </div>
+          </a>
         </div>
-
         <div class="swiper-slide blog__slide">
-          <img
-            class="lazy blog__slide-img"
-            loading="lazy"
-            alt="Массаж на стуле. Общие принципы"
-            data-src="@img/blog-card-01.png"
-          />
-          <div class="blog__slide-info p-3 p-sm-4">
-            <div>
-              <div class="blog__slide-info-title mb-3">
-                <h4 class="h4">Корпоративный массаж на аутсорсе</h4>
+          <a href="/blog.html">
+            <img
+              class="lazy blog__slide-img"
+              loading="lazy"
+              alt="Тейпирование и массаж на марафоне"
+              data-src="@img/blog-card-01.png"
+            />
+            <div class="blog__slide-info p-3 p-sm-4">
+              <div>
+                <div class="blog__slide-info-title mb-3">
+                  <h4 class="h4">Корпоративный массаж на аутсорсе</h4>
+                </div>
               </div>
+
+              <a href="/" class="btn nav-link-text btn__link primary-color">
+                Читать
+              </a>
             </div>
-
-            <a href="/" class="btn nav-link-text btn__link primary-color">
-              Читать
-            </a>
-          </div>
+          </a>
         </div>
-
         <div class="swiper-slide blog__slide">
-          <img
-            class="lazy blog__slide-img"
-            loading="lazy"
-            alt="Массаж всего тела. Как правильно делать"
-            data-src="@img/blog-card-01.png"
-          />
-          <div class="blog__slide-info p-3 p-sm-4">
-            <div>
-              <div class="blog__slide-info-title mb-3">
-                <h4 class="h4">Корпоративный массаж на аутсорсе</h4>
+          <a href="/blog.html">
+            <img
+              class="lazy blog__slide-img"
+              loading="lazy"
+              alt="Тейпирование и массаж на марафоне"
+              data-src="@img/blog-card-01.png"
+            />
+            <div class="blog__slide-info p-3 p-sm-4">
+              <div>
+                <div class="blog__slide-info-title mb-3">
+                  <h4 class="h4">Корпоративный массаж на аутсорсе</h4>
+                </div>
               </div>
+
+              <a href="/" class="btn nav-link-text btn__link primary-color">
+                Читать
+              </a>
             </div>
-
-            <a href="/" class="btn nav-link-text btn__link primary-color">
-              Читать
-            </a>
-          </div>
+          </a>
         </div>
-
         <div class="swiper-slide blog__slide">
-          <img
-            class="lazy blog__slide-img"
-            loading="lazy"
-            alt="Спортивный массаж. Чем полезен"
-            data-src="@img/blog-card-01.png"
-          />
-          <div class="blog__slide-info p-3 p-sm-4">
-            <div>
-              <div class="blog__slide-info-title mb-3">
-                <h4 class="h4">Тейпирование и массаж на марафоне</h4>
+          <a href="/blog.html">
+            <img
+              class="lazy blog__slide-img"
+              loading="lazy"
+              alt="Тейпирование и массаж на марафоне"
+              data-src="@img/blog-card-01.png"
+            />
+            <div class="blog__slide-info p-3 p-sm-4">
+              <div>
+                <div class="blog__slide-info-title mb-3">
+                  <h4 class="h4">Корпоративный массаж на аутсорсе</h4>
+                </div>
               </div>
-            </div>
 
-            <a href="/" class="btn nav-link-text btn__link primary-color">
-              Читать
-            </a>
-          </div>
+              <a href="/" class="btn nav-link-text btn__link primary-color">
+                Читать
+              </a>
+            </div>
+          </a>
         </div>
+
+       
       </div>
       <div class="blog__slide-pagination-wrapper mt-3 mt-sm-6 mb-4 mb-sm-3">
         <div class="swiper-pagination"></div>
